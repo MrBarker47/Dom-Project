@@ -2,7 +2,6 @@
 let home = document.getElementById("container");
 let btn = document.createElement("button");
 let navBar = document.createElement("nav");
-let ul  = document.createElement("ul");
 let headLine = document.createElement("h1");
 
 
@@ -29,5 +28,5 @@ let links = [
     {text: "faq", href: "/faq"}
 ]; 
 
-//backgroundImage
+
 
