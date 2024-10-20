@@ -3,6 +3,8 @@ let home = document.getElementById("container");
 let btn = document.createElement("button");
 let navBar = document.createElement("nav");
 let headLine = document.createElement("h1");
+let form = document.createElement("form");
+
 
 
 //Nav 
@@ -13,7 +15,12 @@ navBar.style.top = 0;
 navBar.style.position = "absolute"
 home.append(navBar);
 
-//
+//Button
+btn.textContent = "Click for our new updates!"
+btn.addEventListener("click", (e) => {
+window.alert("Get retro collection of video games..including Resident Evil 2, NBA Live 98 and Gran Turismo");})
+document.body.append(btn);
+
 
 //header 
 headLine.innerText = "Retro Games"

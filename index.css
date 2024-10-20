@@ -1,18 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  
     background-image: url(https://retro-video-gaming.com/wp-content/uploads/2015/08/game-room-setup1.jpg?w=1000);
     background-size: contain;
     background-blend-mode: darken;
-    background-color: rgb(253, 226, 226);
+    background-color: rgb(99, 79, 79);
 }
 
 /* NavBar */
 nav {
   margin: 0;
   padding: 0;
-   
+  max-width: 100% ;
 }
 
+/* Header */
 h1 {
    margin-top: 120px;
    text-align: center;
