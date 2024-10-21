@@ -7,12 +7,10 @@ let form = document.createElement("form");
 let img = document.createElement("img");
 let btn2 = document.createElement("button");
 let button = btn2.classList;
-
-
-
+let footer = document.createElement("footer");
 
 //Nav 
-navBar.style.backgroundColor = "lightgrey";
+navBar.style.backgroundColor = "black";
 navBar.style.height = "60px";
 navBar.style.width = "100%"
 navBar.style.top = 0;
@@ -48,11 +46,10 @@ let newNav = [
 
 newNav.forEach((link) => {
     let items = document.createElement("a");
-    collect.style.backgroundColor = "red"
     items.setAttribute("href" , "newNav");
     items.textContent = link.text;
-    
     navBar.append(items);
+
 })
 
 // img
@@ -60,3 +57,15 @@ img.src = "https://64.media.tumblr.com/3d2871969f176e433a983630ef35e1cb/tumblr_p
 img.style.height = "120px"
 img.style.marginLeft = "720px"
 document.body.appendChild(img);
+
+
+//form 
+function newForm() {
+  
+}
+
+//footer }
+footer.style.backgroundColor = "black";
+footer.style.height = "40px"
+footer.style.marginTop = "140px"
+document.body.append(footer);

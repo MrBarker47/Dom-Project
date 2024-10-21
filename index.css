@@ -25,6 +25,7 @@ nav a {
    margin: 20px;
    font-size: x-large;
    text-decoration: none;
+   color: white;
 }
 
 /* Header */
@@ -41,7 +42,8 @@ form {
     width: 200px;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(155, 210, 210);
+    background-color: rgb(230, 66, 57);
+    color: white;
 }
 
 
