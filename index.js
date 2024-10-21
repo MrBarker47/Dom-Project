@@ -10,6 +10,7 @@ let button = btn2.classList;
 
 
 
+
 //Nav 
 navBar.style.backgroundColor = "lightgrey";
 navBar.style.height = "60px";
@@ -47,8 +48,10 @@ let newNav = [
 
 newNav.forEach((link) => {
     let items = document.createElement("a");
+    collect.style.backgroundColor = "red"
     items.setAttribute("href" , "newNav");
     items.textContent = link.text;
+    
     navBar.append(items);
 })
 
