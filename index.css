@@ -15,6 +15,16 @@ nav {
   margin: 0;
   padding: 0;
   max-width: 100% ;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+
+nav a {
+   margin: 20px;
+   font-size: x-large;
+   text-decoration: none;
 }
 
 /* Header */
@@ -24,17 +34,20 @@ h1 {
    color: white;
 }
 
-/* Image */
-img {
-    margin-left: 900px; 
-}
 
 
 /* Form */
 form {
     width: 200px;
+    margin: 20px;
+    padding: 20px;
     background-color: rgb(155, 210, 210);
 }
 
 
 
+/* Button */
+.newButton {
+    background-color: rgb(255, 72, 0);
+    margin: 20px;
+}

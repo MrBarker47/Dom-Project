@@ -6,6 +6,7 @@ let headLine = document.createElement("h1");
 let form = document.createElement("form");
 let img = document.createElement("img");
 let btn2 = document.createElement("button");
+let button = btn2.classList;
 
 
 
@@ -23,29 +24,36 @@ btn.addEventListener("click", (e) => {
 window.alert("Get retro collection of video games..including Resident Evil 2, NBA Live 98 and Gran Turismo");})
 document.body.append(btn);
 
-// btn2.textContent = "Click if you dare!"
-// btn2.addEventListener("click", (e) => {
-//     img.src = "https://64.media.tumblr.com/3d2871969f176e433a983630ef35e1cb/tumblr_pxfvcvGctk1tdkro1o2_540.gif"
-// });
-// document.body.append(btn2);
+btn2.textContent = "Click if you dare!"
+btn2.addEventListener("click", (e) => {
+ window.alert("This was suppose to be a gif of Resident Evil 2, but it was working");
+});
+document.body.append(btn2);
+button.add("newButton");
 
 //header 
-headLine.innerText = "Retro Games"
+headLine.innerText = "Welcome To Retro Games"
 headLine.style.height = "100px"
 home.append(headLine);
 
 
 //List
-let links = [
-    {text: "home", href:"/home"},
-    {text: "about", href: "/about"},
-    {text: "faq", href: "/faq"}
+let newNav = [
+    {text: "Home", href:"/home"},
+    {text: "About", href: "/about"},
+    {text: "Contact", href: "/Contact"}
 ]; 
 
-//img 
-img.src = "https://media.tenor.com/CI2R7ANbcT4AAAAM/playing-video-games.gif";
-document.body.append(img);
 
+newNav.forEach((link) => {
+    let items = document.createElement("a");
+    items.setAttribute("href" , "newNav");
+    items.textContent = link.text;
+    navBar.append(items);
+})
 
-//form 
-
+// img
+img.src = "https://64.media.tumblr.com/3d2871969f176e433a983630ef35e1cb/tumblr_pxfvcvGctk1tdkro1o2_540.gif"
+img.style.height = "120px"
+img.style.marginLeft = "720px"
+document.body.appendChild(img);
