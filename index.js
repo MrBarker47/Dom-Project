@@ -28,7 +28,7 @@ document.body.append(btn);
 
 btn2.textContent = "Click if you dare!"
 btn2.addEventListener("click", (e) => {
- window.alert("This was suppose to be a gif of Resident Evil 2, but it was working");
+ window.alert("This was suppose to be a gif of Resident Evil 2, but it wasn't working");
 });
 document.body.append(btn2);
 button.add("newButton");
@@ -71,11 +71,12 @@ form.addEventListener("click", (e) =>{
 })
 
 //Paragraph
-paragraph.textContent = "Welcome"
+paragraph.textContent = "A website, for gamers. "
 paragraph.style.color = "white";
 paragraph.style.backgroundColor = "blue";
+paragraph.style.width = "120px"
+paragraph.style.height = "40px"
 home.append(paragraph);
-
 newParagraph.style.backgroundColor = "grey";
 
 
