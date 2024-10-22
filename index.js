@@ -9,6 +9,8 @@ let button = btn2.classList;
 let footer = document.createElement("footer");
 let form = document.getElementById("newForm");
 let userName = document.getElementById("input1");
+let paragraph = document.createElement("p");
+let newParagraph = document.querySelector("input");
 
 //Nav 
 navBar.style.backgroundColor = "black";
@@ -68,8 +70,18 @@ form.addEventListener("click", (e) =>{
   }
 })
 
+//Paragraph
+paragraph.textContent = "Welcome"
+paragraph.style.color = "white";
+paragraph.style.backgroundColor = "blue";
+home.append(paragraph);
+
+newParagraph.style.backgroundColor = "grey";
+
+
+
 //footer }
 footer.style.backgroundColor = "black";
 footer.style.height = "40px"
-footer.style.marginTop = "140px"
+footer.style.marginTop = "120px"
 document.body.append(footer);

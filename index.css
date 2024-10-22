@@ -46,7 +46,9 @@ form {
     color: white;
 }
 
-
+#input2 {
+    background-color: grey;
+}
 
 /* Button */
 .newButton {
