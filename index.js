@@ -3,11 +3,12 @@ let home = document.getElementById("container");
 let btn = document.createElement("button");
 let navBar = document.createElement("nav");
 let headLine = document.createElement("h1");
-let form = document.createElement("form");
 let img = document.createElement("img");
 let btn2 = document.createElement("button");
 let button = btn2.classList;
 let footer = document.createElement("footer");
+let form = document.getElementById("newForm");
+let userName = document.getElementById("input1");
 
 //Nav 
 navBar.style.backgroundColor = "black";
@@ -60,9 +61,12 @@ document.body.appendChild(img);
 
 
 //form 
-function newForm() {
-  
-}
+form.addEventListener("click", (e) =>{
+  let message = [];
+  if(userName.value === '' || name.value == null) {
+    
+  }
+})
 
 //footer }
 footer.style.backgroundColor = "black";
